@@ -1,2 +1,1 @@
-# voila-app-host
-For triggering app deployment.
+# Voilà Hosted Apps
