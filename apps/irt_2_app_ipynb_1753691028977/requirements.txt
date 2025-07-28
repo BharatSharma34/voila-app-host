@@ -1,6 +1,5 @@
 ipywidgets
 ipyleaflet
 ipython
-base64
 pandas
 requests
