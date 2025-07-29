@@ -1,1 +1,5 @@
+ipywidgets
+ipyleaflet
+ipython
+pandas
 requests
