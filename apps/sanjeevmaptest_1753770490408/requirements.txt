@@ -1,0 +1,10 @@
+ipywidgets==8.1.7
+ipyleaflet==0.20.0
+ipython
+pandas==2.2.2
+voila==0.5.5
+tapestrysdk
+ipywidgets
+ipyleaflet
+pandas
+requests
