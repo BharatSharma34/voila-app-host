@@ -118,22 +118,41 @@ response = generate_report(
    ```
 
 4. **Configure API key**
-   - Edit `main.py`
+   - Edit `Bulk_Research_Assistant1756051021312.py`
    - Replace `tapestry_ids = "xx-xxxxxxxxx-xxxxxxxx"` with your actual API key
 
 5. **Add logo image**
-   - Place `barkleyGPT copy.png` in the project directory
+   - Place `barkleyGPT copy.png` in the project directory (or use the embedded base64 version)
 
 ### Running the Application
 
+**Option 1: Use the provided scripts (Recommended)**
+
+1. **Setup environment (first time only):**
+   ```bash
+   ./setup_env.sh
+   ```
+
+2. **Run the application:**
+   ```bash
+   ./run_app.sh
+   ```
+
+3. **Test setup (optional):**
+   ```bash
+   ./test_app.sh
+   ```
+
+**Option 2: Manual commands**
+
 1. **Convert Python to Notebook**
    ```bash
-   jupytext --to notebook main.py
+   jupytext --to notebook "Bulk_Research_Assistant1756051021312.py"
    ```
 
 2. **Start Voila server**
    ```bash
-   voila main.ipynb --port=8866 --no-browser
+   voila "Bulk_Research_Assistant1756051021312.ipynb" --port=8866 --no-browser
    ```
 
 3. **Access the application**
