@@ -126,36 +126,29 @@ response = generate_report(
 
 ### Running the Application
 
-**Option 1: Use the provided scripts (Recommended)**
-
-1. **Setup environment (first time only):**
+1. **Navigate to the project directory**
    ```bash
-   ./setup_env.sh
+   cd /Users/user/Desktop/Barkley/tapestry/src_tap/apps/int/int_ops/bulk_gap_analysis/tapestry_bulk_eval
    ```
 
-2. **Run the application:**
+2. **Activate virtual environment**
    ```bash
-   ./run_app.sh
+   source .venv/bin/activate
    ```
 
-3. **Test setup (optional):**
+3. **Convert Python to Notebook**
    ```bash
-   ./test_app.sh
+   jupytext --to notebook Bulk_Research_Assistant1756051021312.py
    ```
 
-**Option 2: Manual commands**
-
-1. **Convert Python to Notebook**
+4. **Start Voila server**
    ```bash
-   jupytext --to notebook "Bulk_Research_Assistant1756051021312.py"
+   voila Bulk_Research_Assistant1756051021312.ipynb --port=8866 --no-browser
    ```
 
-2. **Start Voila server**
-   ```bash
-   voila "Bulk_Research_Assistant1756051021312.ipynb" --port=8866 --no-browser
-   ```
-
-3. **Access the application**
+5. **Access the application**
+   - Open browser to `http://localhost:8866`
+   - The application will load with the document selection interface
    - Open browser to `http://localhost:8866`
    - The application will load with the document selection interface
 
