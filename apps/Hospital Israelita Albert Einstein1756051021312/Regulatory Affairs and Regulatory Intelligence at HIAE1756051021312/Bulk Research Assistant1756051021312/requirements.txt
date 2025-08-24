@@ -1,0 +1,7 @@
+ipyleaflet==0.20.0
+ipywidgets==8.1.7
+voila==0.5.5
+ipython==8.26.0
+ipyvuetify==1.11.3
+jupytext
+tapestrysdk==0.1.41
